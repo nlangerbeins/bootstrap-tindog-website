@@ -1,0 +1,31 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.content {
+    margin: 70px 0;
+}
+
+.dog {
+    transform: rotate(30deg);
+}
