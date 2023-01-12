@@ -70,7 +70,7 @@ h1 {
 }
 
 .features-heading {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 
@@ -122,3 +122,39 @@ h2 {
     padding: 3% 2%;
 }
 
+/*------------Action-----------*/
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-weight: 900;
+    font-size: 3rem;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/*------------Footer--------*/
+#footer {
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+
+/*----------Mobile-----------*/
+@media all and (max-width: 1024px) {
+    #title {
+        text-align: center;
+    }
+
+    .dog {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
